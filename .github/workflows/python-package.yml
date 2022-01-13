@@ -5,9 +5,9 @@ name: Python package
 
 on:
   push:
-    branches: [ action-workflow-creation ]
+    branches: [ main, action-workflow-creation ]
   pull_request:
-    branches: [ action-workflow-creation ]
+    branches: [ main, action-workflow-creation ]
 
 jobs:
   build:
