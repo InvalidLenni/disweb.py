@@ -28,7 +28,7 @@ class User(_SlotsReprMixin):
     user_id: int
         The user's ID.
     user_name: str
-        The user's Discord username. 
+        The user's Discord username.
     is_bot: bool
         Check with "is_bot" if the user is a bot.
     avatar_url: str
@@ -43,24 +43,25 @@ class User(_SlotsReprMixin):
         "user_id",
         "user_name",
         "is_bot",
-        # Not releaed yet: "banner_url",
+        "banner_url",
         "creation_date",
         "creation_timestamp",
     )
 
     def __init__(
-        self,
-        user_id: int,
-        data: dict,
+            self,
+            user_id: int,
+            data: dict,
     ):
         self.user_id: int = user_id
         self.user_name: str = str(data["username"])
         self.is_bot: bool = bool(data["bot"])
         self.avatar_url: str = str(data["avatar_url"])
-        # Not released yet: self.banner_url: str = str(data["banner_url"])
+        self.banner_url: str = str(data["banner_url"])
         self.creation_timestamp: int = int(data["creation_timestamp"])
         self.creation_date: int = int(data["creation_date"])
-        
+
+
 class Guild(_SlotsReprMixin):
     """
     Fetch informations about a discord guild.
@@ -89,7 +90,7 @@ class Guild(_SlotsReprMixin):
         # Not released yet: "description"
         "roles_count",
         "emoji_count",
-        "user_count", 
+        "user_count",
         # Not released yet: "online_users"
         # Not released yet: "offline_users"
         # Not releaed yet: "banner_url",
@@ -98,9 +99,9 @@ class Guild(_SlotsReprMixin):
     )
 
     def __init__(
-        self,
-        guild_id: int,
-        data: dict,
+            self,
+            guild_id: int,
+            data: dict,
     ):
         self.guild_id: int = guild_id
         self.guild_name: str = str(data["guildname"])
@@ -115,8 +116,5 @@ class Guild(_SlotsReprMixin):
         # Not released yet: self.online_users: str = str(data["online_users"])
         # Not released yet: self.offline_users: str = str(data["offline_users"])
         # Not released yet: self.banner_url: str = str(data["banner_url"])
-        # Not released yet: self.banner_url: str = str(data["banner_url"])
         self.guildcreation_timestamp: int = int(data["guildcreation_timestamp"])
         self.guildcreation_date: int = int(data["guildcreation_date"])
-    
-    
