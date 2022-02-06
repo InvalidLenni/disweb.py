@@ -1,7 +1,7 @@
 ---
 name: Libary Bug Report
 about: Create a report to help us improve
-title: "[LIBARY-BUG]"
+title: "[BUG]"
 labels: bug
 assignees: ''
 
@@ -17,7 +17,7 @@ A clear and concise description of what you expected to happen.
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - Python Version: [ e.g 3.9 ]
+ - Python Version: [ e.g 3.8 or 3.9 ]
  - Used code: [ ]
  - Error: []
 
