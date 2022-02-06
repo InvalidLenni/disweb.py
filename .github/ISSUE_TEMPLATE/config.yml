@@ -1,8 +1,11 @@
 blank_issues_enabled: false
 contact_links: 
    - name: Disweb.py Documentation 
-     url: https://invalidlenni.github.io/disweb.py/
-     about: The documentation.
+     url: https://invalidlenni.gitbook.io/disweb.py/
+     about: Read the docs.
+   - name: disweb.py discussions
+     url; https://github.com/InvalidLenni/disweb.py/discussions
+     about: Please ask and answer questions there.
    - name: API Bug Report
      url: https://github.com/diswebsite/disweb/issues/new
      about: Please report API Bugs there.
