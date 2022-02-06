@@ -3,9 +3,9 @@ contact_links:
    - name: Disweb.py Documentation 
      url: https://invalidlenni.gitbook.io/disweb.py/
      about: Read the docs.
-   - name: disweb.py discussions
+   - name: Libary Questions & Requests
      url; https://github.com/InvalidLenni/disweb.py/discussions
-     about: Please ask and answer questions there.
+     about: The place for requesting libary ideas and questions.
    - name: API Bug Report
      url: https://github.com/diswebsite/disweb/issues/new
      about: Please report API Bugs there.
