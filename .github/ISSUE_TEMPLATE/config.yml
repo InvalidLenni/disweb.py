@@ -2,10 +2,16 @@ blank_issues_enabled: false
 contact_links: 
    - name: Disweb.py Documentation 
      url: https://invalidlenni.gitbook.io/disweb.py/
-     about: Read the docs.
-   - name: Libary Questions & Requests
-     url; https://github.com/InvalidLenni/disweb.py/discussions
-     about: The place for requesting libary ideas and questions.
-   - name: API Bug Report
-     url: https://github.com/diswebsite/disweb/issues/new
-     about: Please report API Bugs there.
+     about: Please read the documentation before you're asking.
+   - name: Questions and Ideas for / about the API? 
+     url: https://github.com/InvalidLenni/disweb.py/discussions/new
+     about: Please ask questions and request wrapper ideas there. "Don't ask to ask, just ask."
+   - name: Disweb Discord Server
+     url: https://discord.gg/A9zN5zhywJ
+     about: Please the official **Disweb API Discord Server**.
+   - name: Disweb API Documentation
+     url: https://invalidlenni.gitbook.io/disweb/
+     about: Please read the documentation, if you're using the raw api. ;)
+   - name: Disweb API Issue Tracker
+     url: https://github.com/diswebsite/disweb/issues/
+     about: Please check the Disweb API **Issue Tracker**. You can report there **API Issues** too! 
